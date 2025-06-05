@@ -80,6 +80,114 @@ export default function Home() {
               <p className="text-gray-400">Comprehensive security insights</p>
             </div>
           </div>
+
+          <section className="mt-24 text-left max-w-6xl mx-auto">
+            <h2 className="text-3xl font-bold text-white mb-12 text-center">
+              🚀 Key Features
+            </h2>
+
+            <div className="grid md:grid-cols-2 gap-8 px-4">
+              {/* Modern Web Interface */}
+              <div className="bg-[#243042]/50 rounded-xl p-6 backdrop-blur-sm border border-gray-700/50 hover:border-green-500/30 transition-all duration-300">
+                <h3 className="text-xl font-semibold text-green-400 mb-4 flex items-center gap-2">
+                  🌐 Modern Web Interface
+                </h3>
+                <ul className="space-y-3 text-gray-300">
+                  <li className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 bg-green-400 rounded-full"></span>
+                    Sleek, responsive design with dark theme
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 bg-green-400 rounded-full"></span>
+                    Real-time form validation
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 bg-green-400 rounded-full"></span>
+                    Animated UI elements
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 bg-green-400 rounded-full"></span>
+                    Cross-platform compatibility
+                  </li>
+                </ul>
+              </div>
+
+              {/* Security Features */}
+              <div className="bg-[#243042]/50 rounded-xl p-6 backdrop-blur-sm border border-gray-700/50 hover:border-green-500/30 transition-all duration-300">
+                <h3 className="text-xl font-semibold text-green-400 mb-4 flex items-center gap-2">
+                  🔒 Security Features
+                </h3>
+                <ul className="space-y-3 text-gray-300">
+                  <li className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 bg-green-400 rounded-full"></span>
+                    Automated IP detection and logging
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 bg-green-400 rounded-full"></span>
+                    Secure data handling
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 bg-green-400 rounded-full"></span>
+                    Cross-Origin Resource Sharing (CORS) support
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 bg-green-400 rounded-full"></span>
+                    Input sanitization and validation
+                  </li>
+                </ul>
+              </div>
+
+              {/* Advanced Analysis Tools */}
+              <div className="bg-[#243042]/50 rounded-xl p-6 backdrop-blur-sm border border-gray-700/50 hover:border-green-500/30 transition-all duration-300">
+                <h3 className="text-xl font-semibold text-green-400 mb-4 flex items-center gap-2">
+                  📊 Advanced Analysis Tools
+                </h3>
+                <ul className="space-y-3 text-gray-300">
+                  <li className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 bg-green-400 rounded-full"></span>
+                    Command-line data management interface
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 bg-green-400 rounded-full"></span>
+                    Real-time data filtering and cleaning
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 bg-green-400 rounded-full"></span>
+                    Multiple page template support
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 bg-green-400 rounded-full"></span>
+                    Comprehensive search capabilities
+                  </li>
+                </ul>
+              </div>
+
+              {/* Data Management */}
+              <div className="bg-[#243042]/50 rounded-xl p-6 backdrop-blur-sm border border-gray-700/50 hover:border-green-500/30 transition-all duration-300">
+                <h3 className="text-xl font-semibold text-green-400 mb-4 flex items-center gap-2">
+                  💾 Data Management
+                </h3>
+                <ul className="space-y-3 text-gray-300">
+                  <li className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 bg-green-400 rounded-full"></span>
+                    CSV-based storage system
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 bg-green-400 rounded-full"></span>
+                    Record modification and deletion
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 bg-green-400 rounded-full"></span>
+                    Bulk data operations
+                  </li>
+                  <li className="flex items-center gap-2">
+                    <span className="w-1.5 h-1.5 bg-green-400 rounded-full"></span>
+                    Template management system
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
     </main>
