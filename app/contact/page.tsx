@@ -15,24 +15,24 @@ export default function ContactForm() {
   };
 
   return (
-    <div className="min-h-screen py-12 px-4 sm:px-6 lg:px-8 animate-fade-in">
-      <div className="max-w-md mx-auto bg-gray-800/50 backdrop-blur-sm rounded-xl shadow-xl overflow-hidden border border-gray-700">
-        <div className="px-6 py-8">
-          <h2 className="text-2xl font-bold text-center text-green-400 mb-8">
+    <div className="min-h-screen py-16 px-4 sm:px-6 lg:px-8 animate-fade-in bg-gradient-to-b from-gray-900 to-gray-800">
+      <div className="max-w-2xl mx-auto bg-gray-800/60 backdrop-blur-lg rounded-2xl shadow-2xl overflow-hidden border border-gray-600">
+        <div className="px-8 py-12">
+          <h2 className="text-4xl font-bold text-center text-green-400 mb-12">
             Contact Us
           </h2>
 
           {submitted ? (
-            <div className="text-center p-4 mb-4 text-green-400 bg-green-900/50 rounded-lg border border-green-500">
+            <div className="text-center p-6 mb-6 text-green-400 bg-green-900/50 rounded-xl border border-green-500 text-lg">
               Thank you for your message! We will get back to you soon.
             </div>
           ) : null}
 
-          <form onSubmit={handleSubmit} className="space-y-6">
+          <form onSubmit={handleSubmit} className="space-y-8">
             <div>
               <label
                 htmlFor="email"
-                className="block text-sm font-medium text-gray-300 mb-2"
+                className="block text-lg font-medium text-gray-300 mb-3"
               >
                 Email Address
               </label>
@@ -42,9 +42,9 @@ export default function ContactForm() {
                 required
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                className="block w-full px-4 py-3 bg-gray-900/50 border border-gray-600 rounded-lg text-gray-100 placeholder-gray-400
+                className="block w-full px-6 py-4 text-lg bg-gray-900/50 border border-gray-600 rounded-xl text-gray-100 placeholder-gray-400
                           focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent
-                          transition-all duration-200"
+                          transition-all duration-300 hover:border-green-400"
                 placeholder="your@email.com"
               />
             </div>
@@ -52,7 +52,7 @@ export default function ContactForm() {
             <div>
               <label
                 htmlFor="message"
-                className="block text-sm font-medium text-gray-300 mb-2"
+                className="block text-lg font-medium text-gray-300 mb-3"
               >
                 Message
               </label>
@@ -61,10 +61,10 @@ export default function ContactForm() {
                 required
                 value={message}
                 onChange={(e) => setMessage(e.target.value)}
-                rows={4}
-                className="block w-full px-4 py-3 bg-gray-900/50 border border-gray-600 rounded-lg text-gray-100 placeholder-gray-400
+                rows={6}
+                className="block w-full px-6 py-4 text-lg bg-gray-900/50 border border-gray-600 rounded-xl text-gray-100 placeholder-gray-400
                           focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent
-                          transition-all duration-200 resize-none"
+                          transition-all duration-300 hover:border-green-400 resize-none"
                 placeholder="Write your message here..."
               />
             </div>
@@ -72,10 +72,10 @@ export default function ContactForm() {
             <div>
               <button
                 type="submit"
-                className="w-full py-3 px-4 border border-transparent rounded-lg shadow-sm text-sm font-medium
+                className="w-full py-4 px-6 text-lg font-semibold border border-transparent rounded-xl shadow-lg
                          text-gray-900 bg-green-400 hover:bg-green-500 
-                         focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500 
-                         transition-all duration-200 transform hover:scale-[1.02]"
+                         focus:outline-none focus:ring-4 focus:ring-green-500/50
+                         transition-all duration-300 transform hover:scale-[1.02] hover:shadow-green-500/20"
               >
                 Send Message
               </button>
