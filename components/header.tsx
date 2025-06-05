@@ -16,7 +16,6 @@ const Header = () => {
               PhishSense
             </Link>
           </div>
-
           {/* Hamburger Menu Button (visible on mobile) */}
           <div className="md:hidden">
             <button
@@ -60,7 +59,7 @@ const Header = () => {
               href="/scan"
               className="text-green-200 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
             >
-              Scan
+              Docs
             </Link>
             <Link
               href="/about"
