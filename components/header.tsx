@@ -65,7 +65,13 @@ const Header = () => {
               href="/about"
               className="text-green-200 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
             >
-              About
+              Blog
+            </Link>
+            <Link
+              href="/about"
+              className="text-green-200 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+            >
+              Contact
             </Link>
           </div>
         </div>
