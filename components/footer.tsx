@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaLink } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -32,22 +32,30 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-
           {/* Social Media Links */}
           <div>
             <h3 className="text-lg font-semibold mb-4">Connect With Us</h3>
             <div className="flex space-x-4">
-              <a href="#" className="hover:text-green-300">
-                <FaFacebook size={24} />
+              <a
+                href="https://github.com/oussamabenalisst"
+                target="_blank"
+                className="hover:text-green-300"
+              >
+                <FaGithub size={24} />
               </a>
-              <a href="#" className="hover:text-green-300">
-                <FaTwitter size={24} />
-              </a>
-              <a href="#" className="hover:text-green-300">
-                <FaInstagram size={24} />
-              </a>
-              <a href="#" className="hover:text-green-300">
+              <a
+                href="https://www.linkedin.com/in/oussama-benali-ob/"
+                target="_blank"
+                className="hover:text-green-300"
+              >
                 <FaLinkedin size={24} />
+              </a>
+              <a
+                href="https://github.com/oussamabenalisst/PhishSense"
+                target="_blank"
+                className="hover:text-green-300"
+              >
+                <FaLink size={24} />
               </a>
             </div>
           </div>
