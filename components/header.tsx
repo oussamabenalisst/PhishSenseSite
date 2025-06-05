@@ -56,19 +56,19 @@ const Header = () => {
               Home
             </Link>
             <Link
-              href="/scan"
+              href="/Docs"
               className="text-green-200 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
             >
               Docs
             </Link>
             <Link
-              href="/about"
+              href="/Blog"
               className="text-green-200 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
             >
               Blog
             </Link>
             <Link
-              href="/about"
+              href="/contact"
               className="text-green-200 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
             >
               Contact

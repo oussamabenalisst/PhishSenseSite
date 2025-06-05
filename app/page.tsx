@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -21,12 +22,18 @@ export default function Home() {
           </p>
 
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
-            <button className="px-8 py-3 bg-green-500 text-white rounded-lg shadow-lg hover:bg-green-600 transform hover:scale-105 transition-all duration-200 font-semibold">
+            <Link
+              href="/Docs"
+              className="px-8 py-3 bg-green-500 text-white rounded-lg shadow-lg hover:bg-green-600 transform hover:scale-105 transition-all duration-200 font-semibold"
+            >
               Get Started
-            </button>
-            <button className="px-8 py-3 border-2 border-green-400 text-green-400 rounded-lg hover:bg-green-500 hover:text-white transform hover:scale-105 transition-all duration-200 font-semibold">
+            </Link>
+            <Link
+              href="/Blog"
+              className="px-8 py-3 border-2 border-green-400 text-green-400 rounded-lg hover:bg-green-500 hover:text-white transform hover:scale-105 transition-all duration-200 font-semibold"
+            >
               Learn More
-            </button>
+            </Link>
           </div>
 
           <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
