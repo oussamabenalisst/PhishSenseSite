@@ -14,22 +14,22 @@ const Sidebar = () => {
     },
     {
       name: "Add a Web Page",
-      href: "/add-web-page",
+      href: "/Docs/add-web-page",
       icon: "/file.svg",
     },
     {
       name: "Data Management",
-      href: "/data-management",
+      href: "/Docs/data-management",
       icon: "/window.svg",
     },
     {
       name: "Page Management",
-      href: "/page-management",
+      href: "/Docs/page-management",
       icon: "/window.svg",
     },
     {
       name: "Utility Commands",
-      href: "/utility-commands",
+      href: "/Docs/utility-commands",
       icon: "/window.svg",
     },
   ];
