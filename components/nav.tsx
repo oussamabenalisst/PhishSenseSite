@@ -35,7 +35,7 @@ const Sidebar = () => {
   ];
 
   return (
-    <div className="flex">
+    <div className="flex animate-fade-in">
       {/* Mobile menu button */}
       <button
         onClick={() => setIsOpen(!isOpen)}

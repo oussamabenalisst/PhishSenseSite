@@ -2,7 +2,7 @@ import React from "react";
 
 export default function DataManagementPage() {
   return (
-    <div className="min-h-screen bg-black/5 py-6 sm:py-12 px-3 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-black/5 py-6 sm:py-12 px-3 sm:px-6 lg:px-8 animate-fade-in">
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-8 sm:mb-12">
           <h1 className="text-4xl sm:text-5xl font-extrabold text-gray-300 mb-3 sm:mb-4">

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function InstallationPage() {
   return (
-    <div className="min-h-screen bg-black/5 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen bg-black/5 py-12 px-4 sm:px-6 lg:px-8 animate-fade-in">
       <div className="max-w-3xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-5xl font-extrabold text-gray-300 mb-4">
