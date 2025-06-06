@@ -1,5 +1,7 @@
+import InstallationPage from "./installation/page";
+
 function DocsPage() {
-  return <div className="text-white">test</div>;
+  return <InstallationPage />;
 }
 
 export default DocsPage;

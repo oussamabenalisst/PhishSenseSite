@@ -8,18 +8,28 @@ const Sidebar = () => {
 
   const menuItems = [
     {
-      name: "Home",
-      href: "/",
+      name: "Installation",
+      href: "/Docs/installation",
       icon: "/globe.svg",
     },
     {
-      name: "Documentation",
-      href: "/Docs",
+      name: "Add a Web Page",
+      href: "/add-web-page",
       icon: "/file.svg",
     },
     {
-      name: "Contact",
-      href: "/contact",
+      name: "Data Management",
+      href: "/data-management",
+      icon: "/window.svg",
+    },
+    {
+      name: "Page Management",
+      href: "/page-management",
+      icon: "/window.svg",
+    },
+    {
+      name: "Utility Commands",
+      href: "/utility-commands",
       icon: "/window.svg",
     },
   ];
@@ -85,23 +95,6 @@ const Sidebar = () => {
                 </Link>
               ))}
             </nav>
-          </div>
-          <div className="p-6 border-t border-gray-700/50 bg-[#2a3441]/30">
-            <div className="flex items-center space-x-4">
-              <div className="flex-shrink-0">
-                <Image
-                  src="/vercel.svg"
-                  alt="Logo"
-                  width={40}
-                  height={40}
-                  className="rounded-xl bg-white p-2 shadow-lg transition-transform hover:scale-105"
-                />
-              </div>
-              <div>
-                <p className="text-sm font-bold text-gray-200">PhishSense</p>
-                <p className="text-xs text-gray-400 mt-0.5">Security First</p>
-              </div>
-            </div>
           </div>
         </div>
       </div>
