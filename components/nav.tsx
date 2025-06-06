@@ -8,12 +8,10 @@ const Sidebar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
 
-  // إغلاق القائمة عند تغيير المسار
   useEffect(() => {
     setIsOpen(false);
   }, [pathname]);
 
-  // إغلاق القائمة عند النقر خارجها على الشاشات الصغيرة
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
       const sidebar = document.getElementById("mobile-sidebar");
