@@ -78,12 +78,11 @@ const Sidebar = () => {
         aria-hidden="true"
         onClick={() => setIsOpen(false)}
       />
-
-      {/* Mobile menu button */}
+      {/* Mobile menu button */}{" "}
       <button
         id="mobile-menu-button"
         onClick={() => setIsOpen(!isOpen)}
-        className="lg:hidden fixed top-4 left-4 z-50 p-2.5 rounded-lg bg-[#1e2736] text-gray-300 hover:text-white hover:bg-[#2a3441] focus:outline-none focus:ring-2 focus:ring-gray-500 transition-all duration-200"
+        className="lg:hidden fixed bottom-6 right-4 z-50 p-3 rounded-full bg-[#1e2736] text-gray-300 hover:text-white hover:bg-[#2a3441] focus:outline-none focus:ring-2 focus:ring-gray-500 transition-all duration-200 shadow-lg"
         aria-label={isOpen ? "Close menu" : "Open menu"}
         aria-expanded={isOpen}
         aria-controls="mobile-sidebar"
@@ -113,7 +112,6 @@ const Sidebar = () => {
           )}
         </svg>
       </button>
-
       {/* Sidebar */}
       <div
         id="mobile-sidebar"
