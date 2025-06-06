@@ -1,36 +1,93 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# PhishSense Tools Website
+
+## Project Overview
+
+PhishSense Tools is a specialized web platform built with Next.js that provides a comprehensive suite of tools and utilities for phishing detection and prevention. Our platform offers advanced phishing analysis tools, real-time website scanning capabilities, and educational resources to help users protect themselves against phishing attacks. Through our intuitive interface, users can access detailed documentation, utilize our analysis tools, and stay updated with the latest phishing prevention techniques through our blog platform.
+
+## Tech Stack
+
+- **Frontend Framework:** Next.js 14
+- **Language:** TypeScript
+- **Styling:** CSS Modules
+- **Development Environment:** Node.js
+
+## Project Structure
+
+```
+├── app/                  # Next.js app directory
+│   ├── Blog/            # Blog section
+│   ├── contact/         # Contact page
+│   └── Docs/           # Documentation pages
+│       ├── add-web-page/
+│       ├── data-management/
+│       ├── installation/
+│       ├── page-management/
+│       └── utility-commands/
+├── components/          # Reusable UI components
+│   ├── footer.tsx
+│   ├── header.tsx
+│   └── nav.tsx
+└── public/             # Static assets
+```
+
+## Features
+
+- 🔍 Advanced Phishing Detection Tools
+  - URL Analysis
+  - Domain Reputation Checking
+  - SSL Certificate Verification
+  - Visual Similarity Detection
+- 🛡️ Real-time Website Scanning
+- 📊 Detailed Analysis Reports
+- 📚 Comprehensive Documentation System
+- 🎓 Educational Resources
+- 📱 Responsive Design
+- 📝 Security Blog Platform
+- 📢 Community Alerts System
+- 📞 Technical Support Contact
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18.0 or later
+- npm or yarn package manager
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
+
+```bash
+npm install
+# or
+yarn install
+```
+
+3. Run the development server:
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Documentation
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Our comprehensive documentation is available in the Docs section, covering:
 
-## Learn More
+- 🔧 Tool Installation & Setup
+- 🎯 Using PhishSense Analysis Tools
+- 📋 Understanding Analysis Reports
+- 🔍 Advanced Scanning Techniques
+- 🛠️ API Integration Guide
+- 📊 Data Management
+- ⚙️ Custom Configuration Options
+- 🆘 Troubleshooting Guide
 
-To learn more about Next.js, take a look at the following resources:
+## Contributing
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Contributions are welcome! Please feel free to submit pull requests.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
