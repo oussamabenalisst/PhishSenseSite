@@ -22,7 +22,7 @@ export default function InstallationPage() {
               </span>
               Clone the Repository
             </h2>
-            <div className="bg-black/5 rounded-lg p-6 border border-black/5">
+            <div className="bg-black/5 rounded-lg p-6 border border-black/5 sc">
               <code className="block text-sm font-mono text-[#1a2330] hover:bg-black/5 p-2 rounded transition-colors">
                 git clone https://github.com/yourusername/phishsense.git
               </code>

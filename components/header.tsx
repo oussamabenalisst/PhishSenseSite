@@ -6,6 +6,13 @@ import { useState } from "react";
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
+  const navLinks = [
+    { href: "/", label: "Home" },
+    { href: "/Docs", label: "Docs" },
+    { href: "/Blog", label: "Blog" },
+    { href: "/contact", label: "Contact" },
+  ];
+
   return (
     <nav className="bg-gray-800 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -49,55 +56,35 @@ const Header = () => {
 
           {/* Desktop Navigation Links */}
           <div className="hidden md:flex space-x-4">
-            <Link
-              href="/"
-              className="text-green-200 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-            >
-              Home
-            </Link>
-            <Link
-              href="/Docs"
-              className="text-green-200 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-            >
-              Docs
-            </Link>
-            <Link
-              href="/Blog"
-              className="text-green-200 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-            >
-              Blog
-            </Link>
-            <Link
-              href="/contact"
-              className="text-green-200 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-            >
-              Contact
-            </Link>
+            {navLinks.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="text-green-200 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+              >
+                {link.label}
+              </Link>
+            ))}
           </div>
         </div>
       </div>
 
       {/* Mobile Menu (shown/hidden based on menu state) */}
-      <div className={`${isMenuOpen ? "block" : "hidden"} md:hidden`}>
+      <div
+        className={`${isMenuOpen ? "block" : "hidden"} md:hidden`}
+        aria-expanded={isMenuOpen}
+      >
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-          <Link
-            href="/"
-            className="text-green-200 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-          >
-            Home
-          </Link>
-          <Link
-            href="/scan"
-            className="text-green-200 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-          >
-            Scan
-          </Link>
-          <Link
-            href="/about"
-            className="text-green-200 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-          >
-            About
-          </Link>
+          {navLinks.map((link) => (
+            <Link
+              key={link.href}
+              href={link.href}
+              className="text-green-200 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              {link.label}
+            </Link>
+          ))}
         </div>
       </div>
     </nav>
