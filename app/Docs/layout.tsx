@@ -8,7 +8,9 @@ export default function DocsLayout({
   return (
     <div className="flex">
       <Sidebar />
-      <main className="flex-1 p-6 bg-[#f0f2f5] min-h-screen">{children}</main>
+      <main className="flex-1 p-6 bg-[#1a2330] min-h-screen text-white">
+        {children}
+      </main>
     </div>
   );
 }

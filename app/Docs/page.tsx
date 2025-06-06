@@ -1,9 +1,5 @@
 function DocsPage() {
-  return (
-    <div>
-      <div>test</div>
-    </div>
-  );
+  return <div className="text-white">test</div>;
 }
 
 export default DocsPage;
