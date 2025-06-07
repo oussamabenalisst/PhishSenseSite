@@ -17,7 +17,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "PhishSense",
   description:
-    "PhishSense is a comprehensive security research platform designed for simulating and analyzing phishing attempts in a controlled environment. It combines modern web technologies with powerful analysis tools to help security professionals understand phishing tactics and improve defense strategies.",
+    "PhishSense is a comprehensive security research platform designed for simulating and analyzing phishing attempts in a controlled environment.....",
   icons: {
     icon: "/public/phishsense-logo.png",
     apple: "/public/phishsense-logo.png",
@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: "website",
     title: "PhishSense",
     description:
-      "PhishSense is a comprehensive security research platform designed for simulating and analyzing phishing attempts in a controlled environment. It combines modern web technologies with powerful analysis tools to help security professionals understand phishing tactics and improve defense strategies.",
+      "PhishSense is a comprehensive security research platform designed for simulating and analyzing phishing attempts in a controlled environment.....",
     url: "https://phish-sense-site.vercel.app/",
     siteName: "PhishSense",
     images: [
@@ -43,7 +43,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "PhishSense",
     description:
-      "PhishSense is a comprehensive security research platform designed for simulating and analyzing phishing attempts in a controlled environment. It combines modern web technologies with powerful analysis tools to help security professionals understand phishing tactics and improve defense strategies.",
+      "PhishSense is a comprehensive security research platform designed for simulating and analyzing phishing attempts in a controlled environment.....",
     images: ["/phishsense-logo.png"],
   },
   viewport: "width=device-width, initial-scale=1",
