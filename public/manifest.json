@@ -1,0 +1,21 @@
+{
+  "name": "PhishSense",
+  "short_name": "PhishSense",
+  "description": "PhishSense is a comprehensive security research platform designed for simulating and analyzing phishing attempts in a controlled environment. It combines modern web technologies with powerful analysis tools to help security professionals understand phishing tactics and improve defense strategies.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/phishsense-logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

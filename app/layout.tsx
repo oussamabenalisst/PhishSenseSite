@@ -17,6 +17,35 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "PhishSense",
   description: "Phishing detection and prevention tool",
+  icons: {
+    icon: "/public/phishsense-logo.png",
+    apple: "/public/phishsense-logo.png",
+  },
+  manifest: "/manifest.json",
+  openGraph: {
+    type: "website",
+    title: "PhishSense",
+    description:
+      "PhishSense is a comprehensive security research platform designed for simulating and analyzing phishing attempts in a controlled environment. It combines modern web technologies with powerful analysis tools to help security professionals understand phishing tactics and improve defense strategies.",
+    url: "https://phish-sense-site.vercel.app/",
+    siteName: "PhishSense",
+    images: [
+      {
+        url: "/phishsense-logo.png",
+        width: 1200,
+        height: 630,
+        alt: "PhishSense Logo",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "PhishSense",
+    description: "Phishing detection and prevention tool",
+    images: ["/phishsense-logo.png"],
+  },
+  viewport: "width=device-width, initial-scale=1",
+  themeColor: "#ffffff",
 };
 
 export default function RootLayout({
