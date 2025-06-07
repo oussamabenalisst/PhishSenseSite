@@ -12,16 +12,15 @@ export default function Home() {
           className="object-cover opacity-10"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-[#0f172a]/95 to-[#0f172a]/80"></div>
       </div>
       <div className="container mx-auto px-4 py-16 sm:px-6 lg:px-8 relative">
         <div className="text-center space-y-8 animate-fade-in">
           <Image
             src="/phishsense-logo.png"
             alt="PhishSense Logo"
-            width={500}
-            height={500}
-            className="mx-auto mb-8 hover:scale-105 transition-transform duration-300 drop-shadow-2xl"
+            width={300}
+            height={300}
+            className="mx-auto mb-8 hover:scale-105 transition-transform duration-300 drop-shadow-2xl rounded-full"
           />
           <div className="relative inline-block">
             <h1 className="text-5xl font-bold text-white mb-2 relative z-10">
