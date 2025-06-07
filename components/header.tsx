@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useState } from "react";
 
 const Header = () => {
@@ -18,10 +19,20 @@ const Header = () => {
     <nav className="bg-gray-800 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo/Brand */}
+          {/* Logo/Brand */}{" "}
           <div className="flex-shrink-0">
-            <Link href="/" className="text-green-200 font-bold text-xl">
-              PhishSense
+            <Link href="/" className="flex items-center">
+              {" "}
+              <Image
+                src="/phishsense-logo.png"
+                alt="PhishSense Logo"
+                width={50}
+                height={50}
+                className="mr-3 rounded-full hover:opacity-90 transition-opacity"
+              />
+              <span className="text-green-200 font-bold text-xl">
+                PhishSense
+              </span>
             </Link>
           </div>
           {/* Hamburger Menu Button (visible on mobile) */}
@@ -54,7 +65,6 @@ const Header = () => {
               </svg>
             </button>
           </div>
-
           {/* Desktop Navigation Links */}
           <div className="hidden md:flex space-x-4">
             {navLinks.map((link) => (
