@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+// Removing unused Image import
 interface BlogPost {
   id: number;
   title: string;

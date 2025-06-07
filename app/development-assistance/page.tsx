@@ -107,7 +107,7 @@ export default function DevelopmentAssistance() {
                   <li>
                     Commit your changes:{" "}
                     <code className="bg-gray-200 dark:bg-gray-600 px-2 py-1 rounded">
-                      git commit -m "Add: brief description"
+                      git commit -m &quot;Add: brief description&quot;
                     </code>
                   </li>
                   <li>
