@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Link from "next/link";
 
 interface BlogPost {
@@ -44,7 +43,7 @@ export default function Blog() {
         {/* Categories */}
         <div className="flex flex-wrap justify-center gap-2 mb-8">
           {["All", "Security", "Best Practices", "Threats", "Updates"].map(
-            (category: any) => (
+            (category: string) => (
               <button
                 key={category}
                 className="px-4 py-2 rounded-full text-sm bg-[#2a3441] hover:bg-[#3a4451] transition-colors"
@@ -57,7 +56,7 @@ export default function Blog() {
 
         {/* Blog Posts Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {blogPosts.map((post) => (
+          {blogPosts.map((post: BlogPost) => (
             <article
               key={post.id}
               className="bg-[#2a3441] rounded-xl overflow-hidden hover:shadow-lg transition-shadow duration-300"
