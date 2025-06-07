@@ -3,9 +3,26 @@ import Link from "next/link";
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
-      <div className="container mx-auto px-4 py-16 sm:px-6 lg:px-8">
+    <main className="min-h-screen relative">
+      <div className="absolute inset-0 w-full h-full">
+        <Image
+          src="/phishsense-logo.png"
+          alt="Background"
+          fill
+          className="object-cover opacity-10"
+          priority
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-[#0f172a]/95 to-[#0f172a]/80"></div>
+      </div>
+      <div className="container mx-auto px-4 py-16 sm:px-6 lg:px-8 relative">
         <div className="text-center space-y-8 animate-fade-in">
+          <Image
+            src="/phishsense-logo.png"
+            alt="PhishSense Logo"
+            width={500}
+            height={500}
+            className="mx-auto mb-8 hover:scale-105 transition-transform duration-300 drop-shadow-2xl"
+          />
           <div className="relative inline-block">
             <h1 className="text-5xl font-bold text-white mb-2 relative z-10">
               Welcome to PhishSense
@@ -38,13 +55,13 @@ export default function Home() {
 
           <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="p-6 bg-[#243042] rounded-xl shadow-md hover:shadow-xl transition-shadow border border-gray-700">
-              <div className="w-12 h-12 bg-green-900/30 rounded-full flex items-center justify-center mb-4 mx-auto">
+              <div className="w-16 h-16 bg-gradient-to-br from-green-900/40 to-green-600/20 rounded-2xl flex items-center justify-center mb-6 mx-auto transform hover:scale-110 transition-all duration-300 shadow-lg">
                 <Image
                   src="/globe.svg"
                   alt="Globe"
-                  width={24}
-                  height={24}
-                  className="opacity-80"
+                  width={32}
+                  height={32}
+                  className="opacity-90 drop-shadow-md"
                 />
               </div>
               <h3 className="text-lg font-semibold mb-2 text-white">
@@ -55,13 +72,13 @@ export default function Home() {
               </p>
             </div>
             <div className="p-6 bg-[#243042] rounded-xl shadow-md hover:shadow-xl transition-shadow border border-gray-700">
-              <div className="w-12 h-12 bg-green-900/30 rounded-full flex items-center justify-center mb-4 mx-auto">
+              <div className="w-16 h-16 bg-gradient-to-br from-green-900/40 to-green-600/20 rounded-2xl flex items-center justify-center mb-6 mx-auto transform hover:scale-110 transition-all duration-300 shadow-lg">
                 <Image
                   src="/window.svg"
                   alt="Analysis"
-                  width={24}
-                  height={24}
-                  className="opacity-80"
+                  width={32}
+                  height={32}
+                  className="opacity-90 drop-shadow-md"
                 />
               </div>
               <h3 className="text-lg font-semibold mb-2 text-white">
