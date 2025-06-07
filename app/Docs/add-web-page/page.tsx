@@ -58,7 +58,7 @@ export default function AddWebPage() {
                   Username Input:
                 </p>
                 <code className="block text-xs sm:text-sm font-mono text-[#1a2330] hover:bg-black/5 p-2 rounded transition-colors overflow-x-auto whitespace-nowrap">
-                  id="usernamefi"
+                  id=&quot;usernamefi&quot;
                 </code>
               </div>
               <div className="bg-black/5 rounded-md sm:rounded-lg p-3 sm:p-6 border border-black/5">
@@ -66,7 +66,7 @@ export default function AddWebPage() {
                   Password Input:
                 </p>
                 <code className="block text-xs sm:text-sm font-mono text-[#1a2330] hover:bg-black/5 p-2 rounded transition-colors overflow-x-auto whitespace-nowrap">
-                  id="passwordfi"
+                  id=&quot;passwordfi&quot;
                 </code>
               </div>
             </div>
