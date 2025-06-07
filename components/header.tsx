@@ -57,7 +57,7 @@ const Header = () => {
 
           {/* Desktop Navigation Links */}
           <div className="hidden md:flex space-x-4">
-            {navLinks.map((link: any) => (
+            {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
