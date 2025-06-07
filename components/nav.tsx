@@ -148,7 +148,7 @@ const Sidebar = () => {
 
           <div className="flex-1 py-6 overflow-y-auto scrollbar-thin scrollbar-thumb-gray-600 scrollbar-track-transparent overscroll-contain">
             <nav className="px-6 space-y-2">
-              {menuItems.map((item) => (
+              {menuItems.map((item: any) => (
                 <Link
                   key={item.name}
                   href={item.href}
