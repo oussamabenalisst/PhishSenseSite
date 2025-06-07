@@ -16,7 +16,8 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "PhishSense",
-  description: "Phishing detection and prevention tool",
+  description:
+    "PhishSense is a comprehensive security research platform designed for simulating and analyzing phishing attempts in a controlled environment. It combines modern web technologies with powerful analysis tools to help security professionals understand phishing tactics and improve defense strategies.",
   icons: {
     icon: "/public/phishsense-logo.png",
     apple: "/public/phishsense-logo.png",
@@ -41,7 +42,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "PhishSense",
-    description: "Phishing detection and prevention tool",
+    description:
+      "PhishSense is a comprehensive security research platform designed for simulating and analyzing phishing attempts in a controlled environment. It combines modern web technologies with powerful analysis tools to help security professionals understand phishing tactics and improve defense strategies.",
     images: ["/phishsense-logo.png"],
   },
   viewport: "width=device-width, initial-scale=1",
