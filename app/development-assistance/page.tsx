@@ -8,16 +8,12 @@ export default function DevelopmentAssistance() {
           <h1 className="text-3xl font-bold text-gray-900 dark:text-white mb-8">
             Development Assistance Guide
           </h1>
-
-          {/* Introduction Section */}
           <div className="mb-8">
             <p className="text-gray-600 dark:text-gray-300 mb-4">
               Thank you for considering contributing to PhishSense! It&apos;s
               people like you that make PhishSense such a great tool.
             </p>
           </div>
-
-          {/* Code of Conduct Section */}
           <section className="mb-10">
             <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-4">
               📜 Code of Conduct
@@ -45,14 +41,10 @@ export default function DevelopmentAssistance() {
               </li>
             </ul>
           </section>
-
-          {/* How to Contribute Section */}
           <section className="mb-10">
             <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-4">
               How Can I Contribute?
             </h2>
-
-            {/* Bug Reports */}
             <div className="mb-6">
               <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-200 mb-3">
                 Reporting Bugs 🐛
@@ -72,8 +64,6 @@ export default function DevelopmentAssistance() {
                 <li>Any relevant screenshots or error messages</li>
               </ul>
             </div>
-
-            {/* Enhancements */}
             <div className="mb-6">
               <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-200 mb-3">
                 Suggesting Enhancements ✨
@@ -87,8 +77,6 @@ export default function DevelopmentAssistance() {
                 <li>Include code examples if applicable</li>
               </ul>
             </div>
-
-            {/* Development Process */}
             <div className="mb-6">
               <h3 className="text-xl font-semibold text-gray-700 dark:text-gray-200 mb-3">
                 Development Process 🛠️
@@ -121,8 +109,6 @@ export default function DevelopmentAssistance() {
               </div>
             </div>
           </section>
-
-          {/* Coding Standards */}
           <section className="mb-10">
             <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-4">
               Coding Standards 📝
@@ -152,8 +138,6 @@ export default function DevelopmentAssistance() {
               </div>
             </div>
           </section>
-
-          {/* Testing Section */}
           <section className="mb-10">
             <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-4">
               Testing 🧪
@@ -187,8 +171,6 @@ export default function DevelopmentAssistance() {
               </ul>
             </div>
           </section>
-
-          {/* Questions Section */}
           <section className="mb-6">
             <h2 className="text-2xl font-semibold text-gray-800 dark:text-white mb-4">
               Questions? 💭
@@ -198,8 +180,6 @@ export default function DevelopmentAssistance() {
               need any clarification.
             </p>
           </section>
-
-          {/* Thank You Note */}
           <div className="text-center mt-8 pt-6 border-t border-gray-200 dark:border-gray-700">
             <p className="text-lg text-gray-600 dark:text-gray-300">
               Thank you for contributing to PhishSense! 🙏

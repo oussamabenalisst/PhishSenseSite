@@ -31,8 +31,6 @@ export default function InstallationPage() {
               </code>
             </div>
           </section>
-
-          {/* Python Dependencies Section */}
           <section className="bg-white/80 rounded-xl shadow-md p-8 hover:shadow-lg transition-shadow duration-300 border border-black/10">
             <h2 className="text-2xl font-bold text-[#1a2330] mb-4 flex items-center">
               <span className="bg-green-500/90 text-white/90 rounded-full w-8 h-8 flex items-center justify-center mr-3">
@@ -49,8 +47,6 @@ export default function InstallationPage() {
               </code>
             </div>
           </section>
-
-          {/* Web Server Configuration Section */}
           <section className="bg-white/80 rounded-xl shadow-md p-8 hover:shadow-lg transition-shadow duration-300 border border-black/10">
             <h2 className="text-2xl font-bold text-[#1a2330] mb-4 flex items-center">
               <span className="bg-green-500/90 text-white/90 rounded-full w-8 h-8 flex items-center justify-center mr-3">
@@ -64,8 +60,6 @@ export default function InstallationPage() {
               directory permissions.
             </p>
           </section>
-
-          {/* Additional Info */}
           <div className="bg-black/5 border-l-4 border-green-500/80 p-6 rounded-xl shadow-sm">
             <div className="flex items-start">
               <svg

@@ -19,7 +19,7 @@ const Header = () => {
     <nav className="bg-gray-800 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
-          {/* Logo/Brand */}{" "}
+          {" "}
           <div className="flex-shrink-0">
             <Link href="/" className="flex items-center">
               {" "}
@@ -35,7 +35,6 @@ const Header = () => {
               </span>
             </Link>
           </div>
-          {/* Hamburger Menu Button (visible on mobile) */}
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -65,7 +64,6 @@ const Header = () => {
               </svg>
             </button>
           </div>
-          {/* Desktop Navigation Links */}
           <div className="hidden md:flex space-x-4">
             {navLinks.map((link) => (
               <Link
@@ -79,8 +77,6 @@ const Header = () => {
           </div>
         </div>
       </div>
-
-      {/* Mobile Menu (shown/hidden based on menu state) */}
       <div
         className={`${isMenuOpen ? "block" : "hidden"} md:hidden`}
         aria-expanded={isMenuOpen}

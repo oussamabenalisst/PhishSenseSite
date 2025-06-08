@@ -31,7 +31,6 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          {/* Social Media Links */}
           <div className="text-center sm:text-left">
             <h3 className="text-lg font-semibold mb-3 sm:mb-4">
               Connect With Us
@@ -63,8 +62,6 @@ const Footer = () => {
               </a>
             </div>
           </div>
-
-          {/* Contact Info */}
           <div className="text-center sm:text-left">
             <h3 className="text-lg font-semibold mb-3 sm:mb-4">Contact Us</h3>
             <div className="space-y-2">
@@ -77,8 +74,6 @@ const Footer = () => {
             </div>
           </div>
         </div>
-
-        {/* Copyright */}
         <div className="border-t border-gray-700 pt-4 mt-4 text-center text-sm">
           <p>
             &copy; {new Date().getFullYear()} PhishSense. All rights reserved.

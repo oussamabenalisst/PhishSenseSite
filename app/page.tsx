@@ -28,7 +28,6 @@ export default function Home() {
             </h1>
             <div className="absolute -bottom-2 left-0 w-full h-3 bg-green-500 opacity-30 transform -rotate-1"></div>
           </div>
-
           <p className="text-xl text-gray-300 max-w-2xl mx-auto leading-relaxed">
             PhishSense is a comprehensive security research platform designed
             for simulating and analyzing phishing attempts in a controlled
@@ -36,7 +35,6 @@ export default function Home() {
             analysis tools to help security professionals understand phishing
             tactics and improve defense strategies.
           </p>
-
           <div className="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
             <Link
               href="/Docs"
@@ -51,7 +49,6 @@ export default function Home() {
               Learn More
             </Link>
           </div>
-
           <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
             <div className="p-6 bg-[#243042] rounded-xl shadow-md hover:shadow-xl transition-shadow border border-gray-700">
               <div className="w-16 h-16 bg-gradient-to-br from-green-900/40 to-green-600/20 rounded-2xl flex items-center justify-center mb-6 mx-auto transform hover:scale-110 transition-all duration-300 shadow-lg">
@@ -110,7 +107,6 @@ export default function Home() {
             </h2>
 
             <div className="grid md:grid-cols-2 gap-8 px-4">
-              {/* Modern Web Interface */}
               <div className="bg-[#243042]/50 rounded-xl p-6 backdrop-blur-sm border border-gray-700/50 hover:border-green-500/30 transition-all duration-300">
                 <h3 className="text-xl font-semibold text-green-400 mb-4 flex items-center gap-2">
                   🌐 Modern Web Interface
@@ -134,8 +130,6 @@ export default function Home() {
                   </li>
                 </ul>
               </div>
-
-              {/* Security Features */}
               <div className="bg-[#243042]/50 rounded-xl p-6 backdrop-blur-sm border border-gray-700/50 hover:border-green-500/30 transition-all duration-300">
                 <h3 className="text-xl font-semibold text-green-400 mb-4 flex items-center gap-2">
                   🔒 Security Features
@@ -159,8 +153,6 @@ export default function Home() {
                   </li>
                 </ul>
               </div>
-
-              {/* Advanced Analysis Tools */}
               <div className="bg-[#243042]/50 rounded-xl p-6 backdrop-blur-sm border border-gray-700/50 hover:border-green-500/30 transition-all duration-300">
                 <h3 className="text-xl font-semibold text-green-400 mb-4 flex items-center gap-2">
                   📊 Advanced Analysis Tools
@@ -184,8 +176,6 @@ export default function Home() {
                   </li>
                 </ul>
               </div>
-
-              {/* Data Management */}
               <div className="bg-[#243042]/50 rounded-xl p-6 backdrop-blur-sm border border-gray-700/50 hover:border-green-500/30 transition-all duration-300">
                 <h3 className="text-xl font-semibold text-green-400 mb-4 flex items-center gap-2">
                   💾 Data Management

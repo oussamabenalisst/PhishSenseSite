@@ -30,7 +30,6 @@ const Sidebar = () => {
 
     if (isOpen) {
       document.addEventListener("mousedown", handleClickOutside);
-      // Prevent scrolling when menu is open
       document.body.style.overflow = "hidden";
     }
 
@@ -70,15 +69,13 @@ const Sidebar = () => {
 
   return (
     <>
-      {/* Backdrop for mobile */}
       <div
         className={`lg:hidden fixed inset-0 bg-black/50 backdrop-blur-sm transition-opacity z-30 ${
           isOpen ? "opacity-100" : "opacity-0 pointer-events-none"
         }`}
         aria-hidden="true"
         onClick={() => setIsOpen(false)}
-      />
-      {/* Mobile menu button */}{" "}
+      />{" "}
       <button
         id="mobile-menu-button"
         onClick={() => setIsOpen(!isOpen)}
@@ -112,7 +109,6 @@ const Sidebar = () => {
           )}
         </svg>
       </button>
-      {/* Sidebar */}
       <div
         id="mobile-sidebar"
         className={`fixed top-0 left-0 h-full bg-gradient-to-b from-[#1e2736] to-[#2a3441] shadow-2xl transform transition-all duration-300 ease-out z-40 
@@ -123,7 +119,6 @@ const Sidebar = () => {
         aria-label="Main navigation"
       >
         <div className="flex flex-col h-full">
-          {/* Mobile close button - for better UX */}
           <div className="lg:hidden flex justify-end p-4">
             <button
               onClick={() => setIsOpen(false)}

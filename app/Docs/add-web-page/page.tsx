@@ -14,7 +14,6 @@ export default function AddWebPage() {
         </div>
 
         <div className="space-y-4 sm:space-y-8">
-          {/* Command Usage Section */}
           <section className="bg-white/80 rounded-lg sm:rounded-xl shadow p-4 sm:p-8 hover:shadow-lg transition-shadow duration-300 border border-black/10">
             <h2 className="text-xl sm:text-2xl font-bold text-[#1a2330] mb-3 sm:mb-4 flex items-center">
               <span className="bg-green-500/90 text-white/90 rounded-full w-7 h-7 sm:w-8 sm:h-8 flex items-center justify-center mr-2 sm:mr-3 text-sm sm:text-base">
@@ -28,8 +27,6 @@ export default function AddWebPage() {
               </code>
             </div>
           </section>
-
-          {/* Script Integration Section */}
           <section className="bg-white/80 rounded-lg sm:rounded-xl shadow p-4 sm:p-8 hover:shadow-lg transition-shadow duration-300 border border-black/10">
             <h2 className="text-xl sm:text-2xl font-bold text-[#1a2330] mb-3 sm:mb-4 flex items-center">
               <span className="bg-green-500/90 text-white/90 rounded-full w-7 h-7 sm:w-8 sm:h-8 flex items-center justify-center mr-2 sm:mr-3 text-sm sm:text-base">
@@ -43,8 +40,6 @@ export default function AddWebPage() {
               </code>
             </div>
           </section>
-
-          {/* Input Configuration Section */}
           <section className="bg-white/80 rounded-lg sm:rounded-xl shadow p-4 sm:p-8 hover:shadow-lg transition-shadow duration-300 border border-black/10">
             <h2 className="text-xl sm:text-2xl font-bold text-[#1a2330] mb-3 sm:mb-4 flex items-center">
               <span className="bg-green-500/90 text-white/90 rounded-full w-7 h-7 sm:w-8 sm:h-8 flex items-center justify-center mr-2 sm:mr-3 text-sm sm:text-base">
@@ -71,8 +66,6 @@ export default function AddWebPage() {
               </div>
             </div>
           </section>
-
-          {/* Button Configuration Section */}
           <section className="bg-white/80 rounded-lg sm:rounded-xl shadow p-4 sm:p-8 hover:shadow-lg transition-shadow duration-300 border border-black/10">
             <h2 className="text-xl sm:text-2xl font-bold text-[#1a2330] mb-3 sm:mb-4 flex items-center">
               <span className="bg-green-500/90 text-white/90 rounded-full w-7 h-7 sm:w-8 sm:h-8 flex items-center justify-center mr-2 sm:mr-3 text-sm sm:text-base">
@@ -99,8 +92,6 @@ export default function AddWebPage() {
               </div>
             </div>
           </section>
-
-          {/* Parameters Section */}
           <section className="bg-white/80 rounded-lg sm:rounded-xl shadow p-4 sm:p-8 hover:shadow-lg transition-shadow duration-300 border border-black/10">
             <h2 className="text-xl sm:text-2xl font-bold text-[#1a2330] mb-3 sm:mb-4 flex items-center">
               <span className="bg-green-500/90 text-white/90 rounded-full w-7 h-7 sm:w-8 sm:h-8 flex items-center justify-center mr-2 sm:mr-3 text-sm sm:text-base">
@@ -127,8 +118,6 @@ export default function AddWebPage() {
               </div>
             </div>
           </section>
-
-          {/* Additional Info */}
           <div className="bg-black/5 border-l-4 border-green-500/80 p-4 sm:p-6 rounded-lg sm:rounded-xl shadow-sm">
             <div className="flex items-start">
               <svg
