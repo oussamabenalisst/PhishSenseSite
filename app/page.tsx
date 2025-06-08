@@ -43,10 +43,10 @@ export default function Home() {
               Get Started
             </Link>
             <Link
-              href="/Blog"
+              href="https://github.com/oussamabenalisst/PhishSense"
               className="px-8 py-3 border-2 border-green-400 text-green-400 rounded-lg hover:bg-green-500 hover:text-white transform hover:scale-105 transition-all duration-200 font-semibold"
             >
-              Learn More
+              App view
             </Link>
           </div>
           <div className="mt-16 grid grid-cols-1 sm:grid-cols-3 gap-8 max-w-4xl mx-auto">
