@@ -31,6 +31,7 @@ const Footer = () => {
               </li>
             </ul>
           </div>
+          <div className="text-center sm:text-left"></div>
           <div className="text-center sm:text-left">
             <h3 className="text-lg font-semibold mb-3 sm:mb-4">
               Connect With Us
@@ -60,17 +61,6 @@ const Footer = () => {
               >
                 <FaLink size={28} />
               </a>
-            </div>
-          </div>
-          <div className="text-center sm:text-left">
-            <h3 className="text-lg font-semibold mb-3 sm:mb-4">Contact Us</h3>
-            <div className="space-y-2">
-              <p className="flex items-center justify-center sm:justify-start">
-                <span>Email: info@phishsense.com</span>
-              </p>
-              <p className="flex items-center justify-center sm:justify-start">
-                <span>Phone: +1 (123) 456-7890</span>
-              </p>
             </div>
           </div>
         </div>
