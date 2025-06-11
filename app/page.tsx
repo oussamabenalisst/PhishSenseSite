@@ -85,7 +85,7 @@ export default function Home() {
               </p>
             </div>
             <div className="p-6 bg-[#243042] rounded-xl shadow-md hover:shadow-xl transition-shadow border border-gray-700">
-              <div className="w-12 h-12 bg-green-900/30 rounded-full flex items-center justify-center mb-4 mx-auto">
+              <div className="w-16 h-16 bg-gradient-to-br from-green-900/40 to-green-600/20 rounded-2xl flex items-center justify-center mb-6 mx-auto transform hover:scale-110 transition-all duration-300 shadow-lg">
                 <Image
                   src="/file.svg"
                   alt="Reports"
